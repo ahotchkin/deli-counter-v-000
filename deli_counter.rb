@@ -9,4 +9,5 @@ def line(deli_line)
   end
 end
 
-# def take_a_number(deli, name)
+def take_a_number(deli_line, name)
+end
