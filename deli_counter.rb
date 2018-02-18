@@ -4,8 +4,7 @@ def line(deli)
     puts "The line is currently empty."
   elsif deli.length >= 1
     numbered_line = []
-    puts
-
-    "The line is currently: 1. Logan 2. Avi 3. Spencer"
+    deli.each { |i, name| numbered_line << "#{i + 1}. #{name}" }
+    puts "The line is currently: #{numbered_line}"
   end
 end
